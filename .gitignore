@@ -8,3 +8,4 @@
 /e2e-tests/**/public
 /e2e-tests/**/plugins
 /e2e-tests/**/node_modules
+/.idea/**
