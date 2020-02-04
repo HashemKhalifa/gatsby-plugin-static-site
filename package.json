@@ -1,5 +1,5 @@
 {
-  "name": "@wardpeet/gatsby-plugin-static-site",
+  "name": "gatsby-plugin-static-site-custom",
   "version": "0.2.1",
   "description": "A plugin that disables client side routing for gatsby",
   "main": "index.js",
@@ -17,8 +17,8 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@reach/router": "^1.2.1",
-    "gatsby": "^2.11.1"
+    "@reach/router": "1.3.0",
+    "gatsby": "2.19.12"
   },
   "files": [
     "gatsby-browser.js",
@@ -30,22 +30,22 @@
     "access": "public"
   },
   "devDependencies": {
-    "@babel/cli": "7.5.0",
-    "@babel/core": "7.5.4",
-    "babel-preset-gatsby-package": "0.2.11",
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.4",
+    "babel-preset-gatsby-package": "0.2.16",
     "cpy": "8.0.0",
     "cross-env": "6.0.3",
     "del": "5.1.0",
-    "eslint": "6.6.0",
-    "eslint-config-prettier": "6.5.0",
-    "eslint-plugin-cypress": "2.7.0",
-    "eslint-plugin-prettier": "3.1.1",
-    "eslint-plugin-react": "7.16.0",
-    "execa": "3.3.0",
-    "globby": "10.0.1",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-cypress": "2.8.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.18.3",
+    "execa": "4.0.0",
+    "globby": "11.0.0",
     "make-dir": "3.0.0",
     "noop-stream": "0.1.0",
-    "np": "5.1.3",
+    "np": "5.2.1",
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
     "pretty-bytes": "5.3.0"
@@ -64,6 +64,6 @@
     "test": "yarn lint && node scripts/e2e-test.js --silent"
   },
   "dependencies": {
-    "webpack": "^4.41.2"
+    "webpack": "4.41.5"
   }
 }
